@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating package_1.egg-info
+writing package_1.egg-info/PKG-INFO
+writing dependency_links to package_1.egg-info/dependency_links.txt
+writing entry points to package_1.egg-info/entry_points.txt
+writing requirements to package_1.egg-info/requires.txt
+writing top-level names to package_1.egg-info/top_level.txt
+writing manifest file 'package_1.egg-info/SOURCES.txt'
+reading manifest file 'package_1.egg-info/SOURCES.txt'
+writing manifest file 'package_1.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/fred/ros2_ws/src/install/package_1/lib/python3.10/site-packages/package-1.egg-link (link to .)
+
+Installed /home/fred/ros2_ws/src/build/package_1
+running install_data
+creating /home/fred/ros2_ws/src/install/package_1/share/ament_index
+creating /home/fred/ros2_ws/src/install/package_1/share/ament_index/resource_index
+creating /home/fred/ros2_ws/src/install/package_1/share/ament_index/resource_index/packages
+copying resource/package_1 -> /home/fred/ros2_ws/src/install/package_1/share/ament_index/resource_index/packages
+copying package.xml -> /home/fred/ros2_ws/src/install/package_1/share/package_1

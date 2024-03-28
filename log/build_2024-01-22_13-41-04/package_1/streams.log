@@ -1,0 +1,21 @@
+[1.198s] Invoking command in '/home/fred/ros2_ws/src/build/package_1': PYTHONPATH=/home/fred/ros2_ws/src/build/package_1/prefix_override:/home/fred/ros2_ws/src/install/package_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/fred/ros2_ws/src/build/package_1/build --no-deps install_data
+[1.592s] running develop
+[1.592s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.592s]   warnings.warn(
+[1.594s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.594s]   warnings.warn(
+[1.866s] running egg_info
+[1.866s] writing package_1.egg-info/PKG-INFO
+[1.866s] writing dependency_links to package_1.egg-info/dependency_links.txt
+[1.867s] writing entry points to package_1.egg-info/entry_points.txt
+[1.867s] writing requirements to package_1.egg-info/requires.txt
+[1.867s] writing top-level names to package_1.egg-info/top_level.txt
+[1.869s] reading manifest file 'package_1.egg-info/SOURCES.txt'
+[1.871s] writing manifest file 'package_1.egg-info/SOURCES.txt'
+[1.872s] running build_ext
+[1.873s] Creating /home/fred/ros2_ws/src/install/package_1/lib/python3.10/site-packages/package-1.egg-link (link to .)
+[1.874s] Installing package1_exec script to /home/fred/ros2_ws/src/install/package_1/lib/package_1
+[1.874s] 
+[1.875s] Installed /home/fred/ros2_ws/src/build/package_1
+[1.875s] running install_data
+[1.911s] Invoked command in '/home/fred/ros2_ws/src/build/package_1' returned '0': PYTHONPATH=/home/fred/ros2_ws/src/build/package_1/prefix_override:/home/fred/ros2_ws/src/install/package_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/fred/ros2_ws/src/build/package_1/build --no-deps install_data

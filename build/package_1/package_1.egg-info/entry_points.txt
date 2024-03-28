@@ -1,0 +1,3 @@
+[console_scripts]
+package-1_exec = package_1.main:main
+

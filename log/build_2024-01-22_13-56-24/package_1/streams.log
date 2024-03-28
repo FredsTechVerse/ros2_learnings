@@ -1,0 +1,40 @@
+[1.180s] Invoking command in '/home/fred/ros2_ws/src/build/package_1': PYTHONPATH=/home/fred/ros2_ws/src/build/package_1/prefix_override:/home/fred/ros2_ws/src/install/package_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/fred/ros2_ws/src/build/package_1/build
+[1.578s] running develop
+[1.578s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.578s]   warnings.warn(
+[1.580s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.580s]   warnings.warn(
+[1.849s] Removing /home/fred/ros2_ws/src/install/package_1/lib/python3.10/site-packages/package-1.egg-link (link to .)
+[1.885s] Invoked command in '/home/fred/ros2_ws/src/build/package_1' returned '0': PYTHONPATH=/home/fred/ros2_ws/src/build/package_1/prefix_override:/home/fred/ros2_ws/src/install/package_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/fred/ros2_ws/src/build/package_1/build
+[1.889s] Invoking command in '/home/fred/ros2_ws/src/package_1': PYTHONPATH=/home/fred/ros2_ws/src/build/package_1/prefix_override:/home/fred/ros2_ws/src/install/package_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/package_1 build --build-base /home/fred/ros2_ws/src/build/package_1/build install --record /home/fred/ros2_ws/src/build/package_1/install.log --single-version-externally-managed
+[2.271s] running egg_info
+[2.272s] writing ../build/package_1/package_1.egg-info/PKG-INFO
+[2.272s] writing dependency_links to ../build/package_1/package_1.egg-info/dependency_links.txt
+[2.273s] writing entry points to ../build/package_1/package_1.egg-info/entry_points.txt
+[2.273s] writing requirements to ../build/package_1/package_1.egg-info/requires.txt
+[2.273s] writing top-level names to ../build/package_1/package_1.egg-info/top_level.txt
+[2.275s] reading manifest file '../build/package_1/package_1.egg-info/SOURCES.txt'
+[2.276s] writing manifest file '../build/package_1/package_1.egg-info/SOURCES.txt'
+[2.277s] running build
+[2.277s] running build_py
+[2.277s] creating /home/fred/ros2_ws/src/build/package_1/build
+[2.278s] creating /home/fred/ros2_ws/src/build/package_1/build/lib
+[2.278s] creating /home/fred/ros2_ws/src/build/package_1/build/lib/package_1
+[2.278s] copying package_1/__init__.py -> /home/fred/ros2_ws/src/build/package_1/build/lib/package_1
+[2.278s] copying package_1/main.py -> /home/fred/ros2_ws/src/build/package_1/build/lib/package_1
+[2.278s] running install
+[2.279s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.279s]   warnings.warn(
+[2.279s] running install_lib
+[2.279s] creating /home/fred/ros2_ws/src/install/package_1/lib/python3.10/site-packages/package_1
+[2.279s] copying /home/fred/ros2_ws/src/build/package_1/build/lib/package_1/__init__.py -> /home/fred/ros2_ws/src/install/package_1/lib/python3.10/site-packages/package_1
+[2.280s] copying /home/fred/ros2_ws/src/build/package_1/build/lib/package_1/main.py -> /home/fred/ros2_ws/src/install/package_1/lib/python3.10/site-packages/package_1
+[2.280s] byte-compiling /home/fred/ros2_ws/src/install/package_1/lib/python3.10/site-packages/package_1/__init__.py to __init__.cpython-310.pyc
+[2.280s] byte-compiling /home/fred/ros2_ws/src/install/package_1/lib/python3.10/site-packages/package_1/main.py to main.cpython-310.pyc
+[2.281s] running install_data
+[2.281s] running install_egg_info
+[2.284s] Copying ../build/package_1/package_1.egg-info to /home/fred/ros2_ws/src/install/package_1/lib/python3.10/site-packages/package_1-0.0.0-py3.10.egg-info
+[2.285s] running install_scripts
+[2.312s] Installing package-1_exec script to /home/fred/ros2_ws/src/install/package_1/lib/package_1
+[2.313s] writing list of installed files to '/home/fred/ros2_ws/src/build/package_1/install.log'
+[2.351s] Invoked command in '/home/fred/ros2_ws/src/package_1' returned '0': PYTHONPATH=/home/fred/ros2_ws/src/build/package_1/prefix_override:/home/fred/ros2_ws/src/install/package_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/package_1 build --build-base /home/fred/ros2_ws/src/build/package_1/build install --record /home/fred/ros2_ws/src/build/package_1/install.log --single-version-externally-managed
